@@ -17,7 +17,9 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "sharedSPM",
-            dependencies: ["shared"],
+            dependencies: [
+                .target(name: "shared")
+            ],
             publicHeadersPath: ""
         ),
         .testTarget(

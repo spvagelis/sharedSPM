@@ -27,7 +27,7 @@ let package = Package(
             name: "sharedSPMTests",
             dependencies: ["sharedSPM"]),
         .binaryTarget(name: "shared",
-                      url: "https://github.com/spvagelis/sharedSPM/releases/download/1.0.0/shared.xcframework.zip",
+                      url: "https://github.com/spvagelis/sharedSPM/releases/download/1.0.1/shared.xcframework.zip",
                       checksum: "3d0dd29752e41387d552edbd61c5e2d0737552210b6edc1a80d6df51d4b4f510")
     ]
 )
